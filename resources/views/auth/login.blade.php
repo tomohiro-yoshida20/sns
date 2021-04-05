@@ -18,7 +18,7 @@
             @include('error_card_list')
 
             <div class="card-text">
-              <form method="post" action="{{ route('register') }}">
+              <form method="post" action="{{ route('login') }}">
                 @csrf
 
                 <div class="md-form">
