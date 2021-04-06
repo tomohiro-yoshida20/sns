@@ -5,9 +5,12 @@
  */
 
 // require('./bootstrap');
-// import './bootstrap'
+import './bootstrap'
 import Vue from 'vue'
 import ArticleLike from './components/ArticleLike'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+Vue.use(VueAxios, axios)
 // window.Vue = require('vue');
 
 /**
